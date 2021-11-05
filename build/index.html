@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Template</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+	<!-- Vendor Styles -->
+	<link rel="stylesheet" href="vendor/all.min.css" />
+
+	<!-- Vendor Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+	<!-- Custom Styles -->
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Vendor JS -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="js/functions.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="shell">
+				<nav class="navigation header__navigation">
+					<ul class="navigation__wrapper">
+						<li class="navigation__item">
+							<a href="#" id="navigation__home" class="navigation__link navigation__link_active">
+								<span class="navigation__text">
+									Home
+								</span>
+
+								<i class="navigation__icon fas fa-home"></i>
+							</a>
+						</li>
+						
+						<li class="navigation__item">
+							<a href="#" id="navigation__projects" class="navigation__link">
+								<span class="navigation__text">
+									Projects
+								</span>
+
+								<i class="navigation__icon fas fa-folder"></i>
+							</a>
+						</li>
+						
+						<li class="navigation__item">
+							<a href="#" id="navigation__contact" class="navigation__link">
+								<span class="navigation__text">
+									Contact
+								</span>
+
+								<i class="navigation__icon fas fa-envelope"></i>
+							</a>
+						</li>
+						
+						<li class="navigation__item">
+							<a href="https://awezug.github.io" target="_blank" class="navigation__link">
+								<span class="navigation__text">
+									GitHub
+								</span>
+
+								<i class="navigation__icon fab fa-github"></i>
+							</a>
+						</li>
+					</ul>
+				</nav><!-- /.header__nav -->
+			</div><!-- /.shell -->
+		</header><!-- /.header -->
+
+		<section class="panels">
+			<div class="shell">
+				<div class="panels__inner">
+					<div id="panels__home" class="panels__panel panels__panel_active">
+						<div class="intro">
+							<div class="intro__text">
+								<h2 class="intro__heading">Zakhar Sobarshov</h2>
+
+								<p class="intro__position">Junior Front-End Developer</p>
+							</div><!-- /.intro__text -->
+
+							<a href="#" class="intro__media">
+								<img src="css/images/pexels-andrea-davis-3653849.png" alt="" class="intro__image">
+
+								<i class="intro__icon fas fa-chevron-right"></i>
+							</a>
+						</div><!-- /.intro -->
+					</div><!-- /.panel -->
+
+					<div id="panels__projects" class="panels__panel">
+						<div class="portfolio">
+							<h3 class="portfolio__heading">Work</h3>
+
+							<p class="portfolio__text">
+								Here are my projects.
+							</p><!-- /.portfolio__text -->
+
+							<div class="cards portfolio__cards">
+								<div class="cards__inner">
+									<div class="card cards__card">
+										<a href="#" class="card__link" title="Trafalgar">
+											<img src="css/images/trafalgar.png" alt="" class="card__image">
+										</a>
+									</div><!-- /.card cards__card -->
+								</div><!-- /.cards__inner -->
+							</div><!-- /.cards portfolio__cards -->
+						</div><!-- /.portfolio -->
+					</div><!-- /.panel -->
+
+					<div id="panels__contact" class="panels__panel">
+						<div class="contact">
+							<form action="?" method="post" class="contact__form" id="contact_form">
+								<h3 class="contact__heading">Contact Me</h3>
+
+								<p>This form is not supported, if you want to contact me, please send me <a href="mailto:zforbg@gmail.com" target="_blank">email</a></p>
+
+								<div class="contact__row">
+									<input type="text" disabled class="contact__field contact__field_half" name="Name" placeholder="Name" required="required">
+									<input type="email" disabled class="contact__field contact__field_half" name="Email" placeholder="Email" required="required">
+								</div><!-- /.contact__row -->
+
+								<input type="text" disabled class="contact__field" name="Subject" placeholder="Subject">
+
+								<textarea name="Message" id="" disabled class="contact__field contact__field_area" cols="30" rows="10" placeholder="Message" form="contact_form" required="required"></textarea>
+
+								<button type="submit" disabled class="button contact__button">Send Message</button>
+							</form><!-- /.contact__form -->
+						</div><!-- /.contact -->
+					</div><!-- /.panel -->
+				</div><!-- /.panel__inner -->
+			</div><!-- /.shell -->
+		</section><!-- /.panel -->
+
+		<footer class="footer">
+			<div class="shell">
+				<div class="footer__item">
+					<div class="footer__copyright">
+						<p>© Untitled.</p>
+					</div><!-- /.footer__copyright -->
+				</div><!-- /.footer__item -->
+
+				<div class="footer__item">
+					<div class="footer__design">
+						<p>Design: <a href="http://html5up.net" target="_blank" class="footer__link">HTML5 UP</a></p>
+					</div><!-- /.footer__design -->
+				</div><!-- /.footer__item -->
+
+				<div class="footer__item">
+					<div class="footer__design">
+						<p>Photo by <a target="_blank" class="footer__link" href="https://www.pexels.com/@andreaedavis">Andrea Davis</a> from <a href="https://www.pexels.com/" target="_blank" class="footer__link">Pexels</a></p>
+					</div><!-- /.footer__design -->
+				</div><!-- /.footer__item -->
+			</div><!-- /.shell -->
+		</footer><!-- /.footer -->
+
+	</div><!-- /.wrapper -->
+</body>
+
+
+<!-- TODO -->
+<!-- Set timings to opacity first, height second -->
+<!-- (v) Optional remove shake if you can catch it (GOT IT IT'S BECAUSE SCROLL BAR SHOWING) -->
+<!-- Code the form -->
+<!-- Build mobile version -->
+<!-- maxwidth to textarea -->
+<!-- display block to text fields -->
